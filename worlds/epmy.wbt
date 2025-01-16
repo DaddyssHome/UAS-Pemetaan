@@ -1,0 +1,111 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.38500717892662367 0.15243236429439488 -0.9102383459789988 2.715437615252287
+  position 1.3293148035325775 2.4980781138124435 3.613599748636594
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 1 0 4.6928e-06
+  floorSize 6 6
+  wallHeight 0.5
+}
+TurtleBot3Burger {
+  hidden position_0_0 2791.450742829974
+  hidden position_0_1 2765.2831668348636
+  hidden position_0_2 -426.9044700442038
+  hidden position2_0_2 4.805865412792077
+  hidden position3_0_2 834.5001434205914
+  hidden linearVelocity_0 0.22010706534720376 -0.0011366329648640156 -1.0329452332011948e-06
+  hidden angularVelocity_0 -2.0966596719992043e-07 1.256830093726628e-09 5.30350136877483e-08
+  hidden position_1_0 30002.813439982332
+  hidden position_1_1 55104.58367997182
+  hidden rotation_2 0.9152286277063895 -0.28491749916224696 -0.28491854572458114 4.623919560909705
+  hidden translation_3 -0.023053340869408176 -0.010000000000000004 -0.039867917361512954
+  hidden rotation_3 -0.7741182676710456 0.44762676174153854 0.44762840596946396 1.824078278428619
+  hidden rotation_8 0 -1 0 2.708954542775616
+  hidden linearVelocity_8 0.22010705927955543 -0.00113659556861827 -1.016471679424069e-06
+  hidden angularVelocity_8 0.03444346497893431 6.669911066900868 -6.531765543700572e-05
+  hidden rotation_9 0.3583545096914874 9.464173337660175e-07 0.9335855854622426 3.141596904833715
+  hidden linearVelocity_9 0.22010707141165417 -0.0011366733117125982 -1.049360911657946e-06
+  hidden angularVelocity_9 0.03444347018532563 6.669911067699464 -6.531364518773843e-05
+  hidden rotation_10 -0.8570203363974406 -0.49487006307731624 0.14359583444888233 2.485036581446465
+  hidden linearVelocity_10 0.22010706528668472 -0.0011366448876748382 -1.032902277161779e-06
+  hidden angularVelocity_10 0.2842232220809815 55.02676632227707 13.211762505272835
+  translation -0.5182257843099597 -0.7702292046046225 -0.00024530841628642164
+  rotation -0.003137456647065042 -0.668131292232312 -0.7440367818231627 0.006940460449981958
+  name "TurtleBot3"
+  controller "turtlebot3_slam"
+  supervisor TRUE
+}
+Wall {
+  translation -2.99 2.38 0.139997
+  rotation -0.577349935856137 0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(3)"
+  size 0.1 0.2 2
+}
+Wall {
+  translation -3 1.31 0.099997
+  rotation -0.577349935856137 0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(1)"
+  size 0.1 0.2 2
+}
+Wall {
+  translation -3.06 -0.25 0.099997
+  rotation -0.577349935856137 0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(6)"
+  size 0.1 0.2 1.1
+}
+Wall {
+  translation -1.02 3.02 0.139997
+  rotation -1.6952506741258884e-09 0.707108281185553 -0.70710528118436 3.14159
+  name "wall(9)"
+  size 0.1 0.2 0.7
+}
+Wall {
+  translation -3 -0.98 0.0899968
+  rotation -0.577349935856137 0.5773509358560258 -0.577349935856137 2.09439
+  name "wall(7)"
+  size 0.1 0.2 2.7
+}
+Wall {
+  translation -1.02 1.69 0.109997
+  rotation -1.6952506741258884e-09 0.707108281185553 -0.70710528118436 3.14159
+  name "wall(2)"
+  size 0.1 0.2 2
+}
+Wall {
+  translation -1.02 3.02 0.139997
+  rotation -1.6952506741258884e-09 0.707108281185553 -0.70710528118436 3.14159
+  name "wall(5)"
+  size 0.1 0.2 0.7
+}
+Wall {
+  translation -2.01 -0.24 0.099989
+  rotation -1.6952506741258884e-09 0.707108281185553 -0.70710528118436 3.14159
+  name "wall(8)"
+  size 0.1 0.2 0.7
+}
+Wall {
+  translation -1.61 0.88 0.0999936
+  rotation -1.6952506741258884e-09 0.707108281185553 -0.70710528118436 3.14159
+  name "wall(10)"
+  size 0.1 0.2 0.7
+}
+Wall {
+  translation -0.1 3 0.089997
+  rotation -1.6952506741258884e-09 0.707108281185553 -0.70710528118436 3.14159
+  name "wall(4)"
+  size 0.1 0.2 4
+}
